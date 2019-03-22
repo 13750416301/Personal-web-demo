@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>消除表情游戏</title>
+        <link rel="stylesheet" href="./css/index.css">
+        <script type="text/javascript" src="./js/index.js"></script>
+    </head>
+    
+    <body>
+        <div id="box">
+            <div id="top">
+                <p class="title">你的鼠标有多快？</p>
+                <p class="sm">游戏说明：点击“开始游戏”，随机掉下QQ表情，点中它，千万别让它掉下来！！！</p>
+                <input class="but" type="button" value="开始游戏">
+            </div>
+            <div id="bom">
+                <div class="left">
+                    <p>得分：<span>0</span>分</p>
+                    <p>失分：<span>0</span>分</p>
+                </div>
+                <div class="right" onselectstart="return false">
+                    <img ondragstart="return false" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
