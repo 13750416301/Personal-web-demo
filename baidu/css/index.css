@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 13px;
+}
+
+/*
+
+每一个div一定要设置高度
+
+*/
+
+ul, li {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#header {
+    height: 62px;
+}
+
+.headline {
+    float: right;
+    margin: 19px 15px;
+}
+
+.headline li {
+    float: left;
+    margin-right: 15px;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.headline li a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.headline li:nth-child(-n+6):nth-child(n+1) a {
+    font-weight: 900;
+}
+
+.headline li:nth-child(-n+8):nth-child(n+1) a:hover {
+    color: #00c;
+}
+
+.headline li:nth-child(9) {
+    background: #38f;
+    width: 60px;
+    text-align: center;
+}
+
+.headline li:nth-child(9) a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#center {
+    margin: 0 auto;  /* 仅适用于div */
+    text-align: center; /* 规定内部元素居中 */
+    width: 800px;
+    height: 390px;
+}
+
+#logo {
+    width: 270px;
+    height: 129px;
+}
+
+#searchArea {
+    height: 34px;
+    line-height: 34px;
+}
+
+#input {
+    display: inline-block;
+    width: 539px;
+    border: 1px solid #b6b6b6;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+}
+
+#inputArea {
+    height: 34px;
+    width: 539px;
+    border: 0px;
+    margin-right: 0px;
+}
+
+#button {
+    height: 36px;
+    width: 100px;
+    margin-left: -5px;
+    font-size: 15px;
+    background: #3385ff;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #2d78f4;
+}
+
+#footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#qrCode {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#qrCode-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png) 0 0 no-repeat;
+}
+
+#qrCode-text {
+    font-weight: 700;
+    color: #666;
+    margin-top: 5px;
+}
