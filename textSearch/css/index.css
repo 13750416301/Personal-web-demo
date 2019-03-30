@@ -95,6 +95,29 @@ hr {
     display: none;
 }
 
+input {
+    margin-top: 5px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+input[type=text] {
+    border-radius: 3px;
+    border: 1px solid #333;
+}
+
+input[type=button] {
+    background: #F60;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #F60;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+}
+
 span {
     background: yellow;
 }
