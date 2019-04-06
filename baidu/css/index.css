@@ -129,3 +129,33 @@ ul, li {
     color: #666;
     margin-top: 5px;
 }
+
+#lh, #lh a, #cp, #cp a {
+    color: #999;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+#lh a {
+    margin-left: 25px;
+}
+
+#cp .c-icon-icrlogo {
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+}
+
+#cp .c-icon-jgwablogo {
+    background-position: -623px -96px;
+    position: relative;
+    top: 3px;
+}
+
+.c-icon-icrlogo, .c-icon-jgwablogo {
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png) no-repeat;
+}
