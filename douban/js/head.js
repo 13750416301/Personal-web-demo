@@ -33,3 +33,12 @@ count.onmouseout = function() {
         hide(countList);
     }, 500);
 }
+
+countList.onmouseover = function() {
+    clearTimeout(timer);
+    show(countList);
+}
+
+countList.onmouseout = function() {
+    hide(countList);
+}

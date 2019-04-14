@@ -103,12 +103,13 @@
     color: #fff;
 }
 
+
 #search input {
     width: 250px;
     height: 25px;
     text-indent: 5px;
     margin-left: 35px;
-    background: #fff url('../images/main/0.png') no-repeat 230px center;
+    background: #fff url(../images/main/0.png) no-repeat 230px center;
     border: 1px solid #ccc;
 }
 
