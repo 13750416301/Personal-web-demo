@@ -148,6 +148,7 @@ https://blog.csdn.net/skullsky/article/details/61915770
     font-size: 16px;
 }
 
+
 #navbar #navbar1 #nav1-main #for-download {
     display: inline-block;
     margin-left: 280px;
@@ -165,6 +166,8 @@ https://blog.csdn.net/skullsky/article/details/61915770
     font-size: 16px;
     color: #fff;
 }
+
+
 
 #navbar #navbar2 {
     height: 26px;
@@ -186,6 +189,11 @@ https://blog.csdn.net/skullsky/article/details/61915770
     cursor: text;
 }
 
+#navbar #navbar2 #nav2-main ul li::selection {
+    background-color: #286a46;
+    color: #fff;
+}
+
 #scrollPart {
     height: 425px;
     background: #000;
@@ -202,6 +210,81 @@ https://blog.csdn.net/skullsky/article/details/61915770
     float: right;
     width: 290px;
     height: 425px;
-    background: #286a46;
+    background: #262727;
     transition: 0.25s;
+}
+
+#scrollPart #scroll-main #scroll-right #rightListTitle {
+    height: 35px;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding: 0 55px;
+    background: #3f3f3f;
+}
+
+#scrollPart #scroll-main #scroll-right #rightListTitle li {
+    height: 31px;
+    color: #888;
+    font-size: 13px;
+    transition: 0.25s;
+}
+
+#scrollPart #scroll-main #scroll-right #rightListTitle li:nth-child(1) {
+    float: left;
+    border-bottom: 4px solid #286a46;
+    cursor: pointer;
+    color: #fff;
+}
+
+#scrollPart #scroll-main #scroll-right #rightListTitle li:nth-child(2) {
+    float: right;
+}
+
+#scrollPart #scroll-main #scroll-right #rightList1 {
+    padding-top: 12px;
+}
+
+#scrollPart #scroll-main #scroll-right #rightList1 li {
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+}
+
+#scrollPart #scroll-main #scroll-right #rightList1 li:hover {
+    background: #3f3f3f;
+    transition: 0.25s;
+}
+
+#scrollPart #scroll-main #scroll-right #rightList1 li a, span {
+    vertical-align: middle;
+}
+
+#scrollPart #scroll-main #scroll-right #rightList1 li a {
+    font-size: 14px; 
+    height: 36px;
+    color: #999;
+    display: inline-block;
+    padding: 0 7px;
+}
+
+#scrollPart #scroll-main #scroll-right #rightList1 li span {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+#scrollPart #scroll-main #scroll-right #rightList1 li:nth-child(n+1):nth-child(-n+3) span {
+    border-color: #ef9632;
+    background: #ef9632;
+    color: #fff;
+}
+
+#scrollPart #scroll-main #scroll-right #rightList1 li:nth-child(n+4):nth-child(-n+10) span {
+    color: #999;
+    border: 1px solid #999;
 }
